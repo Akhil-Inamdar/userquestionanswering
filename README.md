@@ -1,1 +1,26 @@
 # userquestionanswering
+This project builds a Question Answering (QA) system using BERT (Bidirectional Encoder Representations from Transformers). Given a textual context (passage) and a question, the system predicts the most probable answer from the context.
+
+Project Description
+This project aims to develop a machine learning model capable of automatically answering questions based on given passages or documents. It involves:
+
+1.Collecting a dataset of question-answer pairs along with relevant contexts
+
+2.Preprocessing the text data to extract features and encode contextual information
+
+3.Fine-tuning a pre-trained BERT model
+
+4.Evaluating model performance using accuracy and F1-score
+
+5.Deploying a Streamlit web app for real-time question answering
+
+Technologies Used
+Python 3.9
+
+Hugging Face Transformers
+
+PyTorch
+
+Datasets (Hugging Face)
+
+Streamlit
